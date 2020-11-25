@@ -3,10 +3,10 @@ import {
   View,
   Text,
   StyleSheet,
-  Button,
   Image,
   Dimensions,
   ScrollView,
+ 
 } from 'react-native';
 
 import BodyText from '../components/BodyText';
@@ -16,6 +16,7 @@ import Colors from '../constants/colors';
 
 const GameOverScreen = props => {
   return (
+    
     <ScrollView>
       <View style={styles.screen}>
         <TitleText>The Game is Over!</TitleText>
@@ -42,6 +43,7 @@ const GameOverScreen = props => {
         <MainButton onPress={props.onRestart}>NEW GAME</MainButton>
       </View>
     </ScrollView>
+  
   );
 };
 
